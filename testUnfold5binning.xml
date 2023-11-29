@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TUnfoldBinning SYSTEM "tunfoldbinning.dtd">
+<TUnfoldBinning>
+<BinningNode name="LundPlaneAK8mapping" firstbin="1" factor="1">
+ <BinningNode name="LundPlaneAK8binning" firstbin="1" factor="1">
+  <Axis name="ln(R/DeltaR)" lowEdge="0">
+   <Bin repeat="10" width="0.333333" center="0.166667" />
+   <Bin repeat="5" width="0.333333" center="3.5" />
+   <Axis name="ln(kT/GeV)" lowEdge="0.0837093">
+    <Bin repeat="10" width="0.5" center="0.333709" />
+    <Bin width="1.5" center="5.83371" />
+   </Axis>
+  </Axis>
+ </BinningNode>
+</BinningNode>
